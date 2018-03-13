@@ -1,0 +1,4 @@
+; dlltool --base-file C:\Users\admin\AppData\Local\Temp\cca07792.base --output-exp TicketForce.exp --dllname TicketForce.dll --output-def libTicketForce.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup --def C:\Users\admin\AppData\Local\Temp\cca07792.def --output-lib libTicketForce.a
+EXPORTS
+	Java_TicketForce_placeTicket @ 1
+	Java_TicketForce_calcular_1precio @ 2
